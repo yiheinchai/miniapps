@@ -1,0 +1,25 @@
+.settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  background-color: rgb(59, 59, 59);
+  border: 1px solid rgba(179, 179, 179, 0.3);
+  border-radius: 1rem;
+  padding: 2rem 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.settings div {
+  align-self: center;
+}
+
+.settings__counter {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}

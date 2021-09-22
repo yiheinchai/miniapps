@@ -1,0 +1,19 @@
+.music {
+  height: 20rem;
+  width: 25rem;
+}
+
+.video__list {
+  height: 9rem;
+  padding-top: 1rem;
+  overflow: scroll;
+  display: flex;
+  flex-flow: column;
+  gap: 0.5rem;
+}
+
+.video__playback {
+  border-radius: 1rem;
+  width: 25rem;
+  aspect-ratio: 16/9;
+}

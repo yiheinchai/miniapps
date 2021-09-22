@@ -1,0 +1,6 @@
+.profile__list {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 1rem;
+}

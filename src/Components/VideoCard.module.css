@@ -1,0 +1,30 @@
+.video {
+  display: grid;
+  grid-template-areas: "image title" "image channel";
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  cursor: pointer;
+}
+
+.video__img {
+  grid-area: image;
+  aspect-ratio: 120/90;
+  width: 3rem;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.video__title {
+  grid-area: title;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video__channel {
+  grid-area: channel;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
